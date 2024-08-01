@@ -66,13 +66,18 @@ public class CWH_07_chapter01_practiceSet {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number to check if it is a Integer or not : ");
         String input = scanner.nextLine();
-
+        // The `try` block contains the code that might throw an exception
         try {
             Integer.parseInt(input);
             System.out.println("INTEGER");
-        }catch (NumberFormatException e) {
+        } catch (NumberFormatException e) { //The `catch` block contains the code that runs if an exception of the specified type occurs.
             System.out.println("NOT INTEGER ");
         }
+        /* NOTE : `NumberFormatException` is a subclass of `IllegalArgumentException`, which is thrown by methods
+                   like Integer.parseInt(String s) when the input string cannot be parsed as an integer.*/
+        /* So, `NumberFormatException e` is there to catch any exceptions that occur when the input string cannot
+                be parsed into an integer, allowing the program to handle this situation gracefully by printing
+                "NOT INTEGER" instead of crashing.*/
         }
 
     }
