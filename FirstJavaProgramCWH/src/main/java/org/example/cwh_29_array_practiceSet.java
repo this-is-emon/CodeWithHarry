@@ -6,18 +6,18 @@ import java.util.Arrays;
 public class cwh_29_array_practiceSet {
     public static void main(String[] args) {
 
-        /**-- 01 : Create an array fo 5 floats and calculate their sum --**/
-    //        float[] num = new float[5];
-    //        num = new float[]{2.4f,4.5f,5.6f,6.3f,7.8f};
-    //        float sum = 0.0f;
-    //        for (int i = 0; i < num.length ; i++) {
-    //            sum = sum + num[i];
-    //        }
-    //        System.out.println(sum);
+        /*-- 01 : Create an array fo 5 floats and calculate their sum --*/
+//            float[] num = new float[5];
+//            num = new float[]{2.4f,4.5f,5.6f,6.3f,7.8f};
+//            float sum = 0.0f;
+//            for (int i = 0; i < num.length ; i++) {
+//                sum = sum + num[i];
+//            }
+//            System.out.println(sum);
 
         System.out.println("-------------------------------------");
 
-        /**-- 02 : Write a program to find out weather a given integer is present in an array or not? --**/
+        /*-- 02 : Write a program to find out weather a given integer is present in an array or not? --*/
     //        int[] intNum = {1,2,3,4,5};
     //        Scanner scanner = new Scanner(System.in);
     //        System.out.println("Enter an integer number : ");
@@ -36,7 +36,7 @@ public class cwh_29_array_practiceSet {
     //        }
         System.out.println("-------------------------------------");
 
-        /**-- 03 : Calculate the average marks from an array containing marks of all students in Physics using for-each loop  --**/
+        /*-- 03 : Calculate the average marks from an array containing marks of all students in Physics using for-each loop  --*/
 
     //        int[] physicsMarks = {56,78,38,90,34};
     //        int sum = 0;
@@ -48,7 +48,7 @@ public class cwh_29_array_practiceSet {
 
         System.out.println("-------------------------------------");
 
-        /**-- 04 : Create a Java program to add two matrix of size 2*3 --**/
+        /*-- 04 : Create a Java program to add two matrix of size 2*3 --*/
 
     //        int[][] num1 = {{3,4,5},{7,8,9}};
     //        int[][] num2 = {{1,2,3},{4,5,6}};
@@ -67,11 +67,11 @@ public class cwh_29_array_practiceSet {
 
         System.out.println("-------------------------------------");
 
-        /**-- 05 : Write a java program to reverse an array  --**/
+        /*-- 05 : Write a java program to reverse an array  --*/
         
         int[] array = {1,2,3,4,5};
 
-        /** While Loop **/
+        /* While Loop */
 //        int i = 0;
 //        while (i < (array.length/2)){
 //            int temp = array[i];
@@ -83,7 +83,7 @@ public class cwh_29_array_practiceSet {
 //            System.out.print(element + " ");
 //        }
 
-        /** For loop **/
+        /* For loop */
 //        for (int i = 0; i < (array.length/2) ; i++) {
 //            int temp = array[i];
 //            array[i] = array[(array.length-1) - i];
@@ -95,10 +95,10 @@ public class cwh_29_array_practiceSet {
 
         System.out.println("-------------------------------------");
 
-        /**-- 06 : Write a java program to find the maximum element in an array  --**/
+        /*-- 06 : Write a java program to find the maximum element in an array  --*/
 
 //        int[] array2 = {1,2,3,4,5,6,7,8,9,10};
-//        int maxElement = 0;
+//        int maxElement = array2[1];
 //        for(int element : array2){
 //            if (element > maxElement) {
 //             maxElement = element;
@@ -108,18 +108,18 @@ public class cwh_29_array_practiceSet {
 
         System.out.println("-------------------------------------");
 
-        /**-- 07 : Write a Java program to find the minimum element of an array  --**/
-//            int[] array2 = {1,2,3,4,5,6,7,8,9,10};
-//            int minElement = 1;
+        /*-- 07 : Write a Java program to find the minimum element of an array  --*/
+//            int[] array2 = {1,2,3,4,5,0,7,8,9,10};
+//            int minElement = array2[0];
 //            for(int element : array2){
 //                if (element < minElement) {
 //                 minElement = element;
 //                }
 //            }
 //            System.out.println("Minimum element in the array : " + minElement);
-        System.out.println("-------------------------------------");
+//        System.out.println("-------------------------------------");
 
-        /**-- 08 : Write a Java program to find weather an array is sorted or not  --**/
+        /*-- 08 : Write a Java program to find weather an array is sorted or not  --*/
 //            int[] array3 = {1,2,4,3,5};
 //            boolean isSorted = true;
 //            for (int i = 0; i < array3.length-1; i++) {
