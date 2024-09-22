@@ -35,7 +35,7 @@ class MyNewEmployee{
     public String getName(){ return name; }
 }
 
-public class cwh_43_ch9_constructor {
+public class cwh_42_ch9_constructor {
     public static void main(String[] args) {
         /** For access modifier "Private" : **/
         MyNewEmployee emon = new MyNewEmployee();
