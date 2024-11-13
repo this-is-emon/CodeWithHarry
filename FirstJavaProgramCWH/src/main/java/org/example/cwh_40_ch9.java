@@ -1,4 +1,11 @@
 package org.example;
+/** Access levels from most to least restrictive:
+ * private → default → protected → public
+ * Private : Only within the class
+ * Default: Only within the package
+ * Protected : Beteween package through INHERITANCE
+ * Public : Between different package and classes
+ * **/
 
 /* Example 01: On excess modifier */
 class MyEmployee{
