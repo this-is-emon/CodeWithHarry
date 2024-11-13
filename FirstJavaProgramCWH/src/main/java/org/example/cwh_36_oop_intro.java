@@ -63,19 +63,19 @@ class Shape{
 class Circle2 extends Shape{
     private double radius;
 
-    @Override
-    public double getArea() {
-        return Math.PI * radius * radius;
-    }
+//    @Override
+//    public double getArea() {
+//        return Math.PI * radius * radius;
+//    }
 }
 
 class Square1 extends Shape{
     private double side;
-
-    @Override
-    public double getArea() {
-        return side * side;
-    }
+//
+//    @Override
+//    public double getArea() {
+//        return side * side;
+//    }
 }
 
 /** 5.ABSTRACTION : Using abstract classes and interfaces **/
@@ -93,24 +93,24 @@ interface Flyable{
 }
 
 //implementing class
-class Airplane extends Vehicle implements Flyable{
+//class Airplane extends Vehicle implements Flyable{
 
-    @Override
-    public void move(){
-        System.out.println("Airplane is moving on runway");
-    }
+//    @Override
+//    public void move(){
+//        System.out.println("Airplane is moving on runway");
+//    }
 
-    @Override
-    public void fly(){
-        System.out.println("Airplane is flying");
-    }
+//    @Override
+//    public void fly(){
+//        System.out.println("Airplane is flying");
+//    }
 
-    @Override
-    public void land(){
-        System.out.println("Airplane is landing");
-    }
+//    @Override
+//    public void land(){
+//        System.out.println("Airplane is landing");
+//    }
 
-}
+//}
 
 
 
@@ -149,8 +149,8 @@ public class cwh_36_oop_intro {
         System.out.println("------------------------------------");
 
         /** 5.ABSTRACTION **/
-        Airplane myAirplane = new Airplane();
-        System.out.println(myAirplane.fly());
+//        Airplane myAirplane = new Airplane();
+//        System.out.println(myAirplane.fly());
 
     }
 }
